@@ -1,4 +1,4 @@
-# Electronic voting machine design
+# Electronic Voting Machine Design
 
 
 #### What is EVM?
@@ -90,13 +90,11 @@ There should be an assurance that someone cannot deny something without any lega
 
 - Electors select directly their representatives, meaning that: No person, shall be an intermediaries, or can be authorised to vote for another person.
 
-## Formal specification of alternative EVM design
+## Formal and Functional specification of alternative EVM design
 
-## Functional design
+#### EVM - UML diagram
+![EVM-process](EVM-process.png)
 
-#### Functional specifications
-
-#### Verifying the correctness
 
 ## Challenges for EVM in India : External Reasons
 
@@ -113,11 +111,14 @@ There should be an assurance that someone cannot deny something without any lega
 - **Booth-capturing** - Incase, a booth is captured by a anonymous force, the machine shall preserve the counted number of votes if possible, if not, it shall only count vote within certain intervals of time, for e.g. 4 votes in a minute, which will ensure that votes won't get tampered too much until help arrives.
 
 
-
-
 ## Points of improvement and some thoughts
 
-## A general discussion
+- There can be a remote server that stores the votes of EVM, the information can be communicated via internet securely.
+- It is even possible to make a advancement in this total process of voting through machines to make it e-voting, it is quite a dream right now, as major places in India lacks of proper electricity, but it can seen as a reason for technological advancement.  
+
+## A general discussion on Democracy.
+
+
 
 ## Informational Documents
 
