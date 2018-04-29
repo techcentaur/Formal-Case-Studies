@@ -1,7 +1,14 @@
 # Electronic Voting Machine Design
 
+## Table of contents
+1. [Introduction](#intro)
+2. [Social Requirements](#social)
+3. [Formal and Functional Specifications](#formal)
+4. [Challenges in India](#challenges)
+5. [A General Discussion on Democracy](#talk)
+6. [Informational Documents](#doc)
 
-#### What is EVM?
+#### <a id="intro"></a>What is EVM?
 EVM, i.e. electonic voting machines, are used to implement the process of voting by electronic machines, having replaced the use of ballot papers in India.
 
 #### How does it work?
@@ -11,7 +18,8 @@ An EVM consists of two units, control unit and balloting unit, joined by a 5m wi
 
 Essentially there are pros and cons using an EVM, they have reduced the wastage of papers, human work, and introduced the tint of technology in one of the important tasks of a nation, also it is easy to blame a machine of its corruptness and easy to point finger at its working, hence it is important to ensure that it will provide the basic necessities and is correct to its fundamental.
 
-## Social Requirements
+
+## <a id="social"></a>Social Requirements 
 
 Despite the variety of electoral
 systems, legislative framework, and infrastructure, the following principles
@@ -90,13 +98,13 @@ There should be an assurance that someone cannot deny something without any lega
 
 - Electors select directly their representatives, meaning that: No person, shall be an intermediaries, or can be authorised to vote for another person.
 
-## Formal and Functional specification of alternative EVM design
+## <a id="formal"></a>Formal and Functional specification of alternative EVM design
 
 #### EVM - UML diagram
 ![EVM-process](EVM-process.png)
 
 
-## Challenges for EVM in India : External Reasons
+## <a id="challenges"></a>Challenges for EVM in India : External Reasons
 
 - **Cost** : We need our design to be a product that can be manufactured easily i.e. it shouldn't be costly as over a million EVMs are used in a major voting event.
 
@@ -111,15 +119,15 @@ There should be an assurance that someone cannot deny something without any lega
 - **Booth-capturing** - Incase, a booth is captured by a anonymous force, the machine shall preserve the counted number of votes if possible, if not, it shall only count vote within certain intervals of time, for e.g. 4 votes in a minute, which will ensure that votes won't get tampered too much until help arrives.
 
 
-## Points of improvement and some thoughts
+## <a id="improv"></a>Points of improvement and some thoughts
 
 - There can be a remote server that stores the votes of EVM, the information can be communicated via internet securely.
 - It is even possible to make a advancement in this total process of voting through machines to make it e-voting, it is quite a dream right now, as major places in India lacks of proper electricity, but it can seen as a reason for technological advancement.  
 
-## A general discussion on Democracy.
+## <a id="talk"></a>A general discussion on Democracy.
 
 
 
-## Informational Documents
+## <a href="doc"></a> Informational Documents
 
 - [Security Analysis of India’s Electronic Voting Machines](https://indiaevm.org/evm_tr2010-jul29.pdf)
