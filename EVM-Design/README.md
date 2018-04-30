@@ -104,20 +104,20 @@ There should be an assurance that someone cannot deny something without any lega
 
 ## <a id="formal"></a>Formal and Functional specification of alternative EVM design
 
-#### <a id="one"></a>EVM - UML diagram
+### <a id="one"></a>EVM - UML diagram
 ![EVM-process](EVM-process.png)
 
-#### <a id="two"></a>System and administration service - UML diagram
+### <a id="two"></a>System and administration service - UML diagram
 ![System services](Systemservice.png)
 
-#### <a id="three"></a>Decryption and Counting - UML diagram
+### <a id="three"></a>Decryption and Counting - UML diagram
 ![Result](Result.png)
 
-#### <a id="four"></a>Cryptographic system
+### <a id="four"></a>Cryptographic system
 
 Cryptography is an essential part of providing data confidentiality, integrity, and authentication in the security and thus used with similar aim. In this cryptosystem, the encryption key is public and it is different from the decryption key which is kept private.
 
-##### RSA algorithm
+### RSA algorithm
 
 RSA algorithm can be categorized in 4 steps:
 
@@ -142,7 +142,7 @@ RSA algorithm can be categorized in 4 steps:
 4. Decryption
 	- c^d = mod((m^e)^d / n), given d, it is easy to decrypt the required integer m, which can be converted into plaintext.
 
-#### 
+### Proof / Verifiablity of Cryptosystem
 
 ## <a id="challenges"></a>Challenges for EVM in India : External Reasons
 
@@ -164,10 +164,16 @@ RSA algorithm can be categorized in 4 steps:
 - There can be a remote server that stores the votes of EVM, the information can be communicated via internet securely.
 - It is even possible to make a advancement in this total process of voting through machines to make it e-voting, it is quite a dream right now, as major places in India lacks of proper electricity, but it can seen as a reason for technological advancement.  
 
-## <a id="talk"></a>A general discussion on Democracy.
+## <a id="talk"></a>A General Discussion on Democracy.
+
+[Democracy](https://en.wikipedia.org/wiki/Democracy) has its definition rooted in the choice of majority i.e. rule of the people, by the people, for the people. But it will work essentially then, when we divide our system into many social classes, culture and money. When we elect a person and give him the power to manage critical stuff, we hereby create a social class superior in power to others, it is essentially analogical to the king-rule system of ancient world.
+
+Whereas, [communism](https://en.wikipedia.org/wiki/Communism) works just the other, in political and social sciences, communism is the ideology and movement whose ultimate goal is the establishment of the communist society, which is a socioeconomic order structured upon the common ownership of the means of production and the absence of social classes, money and the state.
+
+I, personally, support the communist society, given that humanism is overlapped bound of social animalism.s
 
 
+## <a id="doc"></a> Informational Documents
 
-## <a href="doc"></a> Informational Documents
-
+- [RSA algorithm wikipedia](https://en.wikipedia.org/wiki/RSA)
 - [Security Analysis of India’s Electronic Voting Machines](https://indiaevm.org/evm_tr2010-jul29.pdf)
