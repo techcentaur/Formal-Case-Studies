@@ -5,3 +5,4 @@ This repository contains some case studies upto certain levels of formal specifi
 #### Table of contents
 - [Electonic Voting Machine Design](https://github.com/techcentaur/Formal-Case-Studies/tree/master/EVM-Design)
 - [Public Distribution System Design](https://github.com/techcentaur/Formal-Case-Studies/tree/master/PDS-Design)
+- [Linguistic Intelligence](https://github.com/techcentaur/Formal-Case-Studies/tree/master/Linguistic-Intelligence)
